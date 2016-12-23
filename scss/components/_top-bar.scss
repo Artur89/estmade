@@ -1,0 +1,10 @@
+.top-bar-title {
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .top-bar-title {
+        width: auto;
+    }
+}

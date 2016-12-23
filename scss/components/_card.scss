@@ -1,0 +1,16 @@
+.card {
+    border-radius: 12px;
+
+    &__title {
+        color: $black;
+        text-transform: uppercase;
+    }
+
+    & .column {
+        padding: 0.5rem 0 2em;
+    }
+
+    &--no-margin {
+        margin: 0;
+    }
+}

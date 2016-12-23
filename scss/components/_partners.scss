@@ -1,0 +1,10 @@
+.partners {
+    background: $base-color-1;
+    padding: 3.5rem 0;
+
+    &__title {
+        color: $white;
+        margin-bottom: 3.5rem;
+        text-transform: uppercase;
+    }
+}
