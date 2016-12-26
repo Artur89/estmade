@@ -1,0 +1,28 @@
+.contact {
+	padding: 3.5rem 0;
+
+	&__title {
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+	}
+
+	&__subheader {
+		margin-bottom: 2rem;
+	}
+
+	&__item {
+		color: $dark-gray;
+
+		&-strong {
+			margin-right: 7px;
+		}
+
+		&-span {
+			float: right;
+		}
+	}
+
+	&__form-subheader {
+		margin-bottom: 2rem;
+	}
+}

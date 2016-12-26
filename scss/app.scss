@@ -53,6 +53,7 @@
 @include foundation-card;
 
 // User defined styles
+@import "util";
 @import "components/top-bar";
 @import "components/card";
 @import "components/about";

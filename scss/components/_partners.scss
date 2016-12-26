@@ -8,3 +8,34 @@
         text-transform: uppercase;
     }
 }
+
+.card-partners {
+	&__head {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+	
+    &__logo {
+        align-self: flex-start;
+        padding: 5px 20px 15px 15px;
+    }
+
+    &__desc {
+
+    }
+
+    &__img {
+        margin: 0 auto;
+        padding-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    .card-partners {
+        &__head {
+            flex-direction: row;
+        }
+    }
+}
