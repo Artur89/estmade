@@ -1,6 +1,5 @@
 .partners {
-    background: $base-color-1;
-    padding: 3.5rem 0;
+    background: linear-gradient(to right, #05336f 0%, #1a84db 100%);
 
     &__title {
         color: $white;
@@ -10,6 +9,10 @@
 }
 
 .card-partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 	&__head {
         display: flex;
         align-items: center;
@@ -19,6 +22,7 @@
     &__logo {
         align-self: flex-start;
         padding: 5px 20px 15px 15px;
+        max-width: 45%;
     }
 
     &__desc {
@@ -37,5 +41,11 @@
         &__head {
             flex-direction: row;
         }
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .card-partners {
+        height: 100%;
     }
 }

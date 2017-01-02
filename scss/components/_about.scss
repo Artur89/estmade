@@ -1,6 +1,5 @@
 .about {
-    background: $base-color-1;
-    padding: 2em 0;
+    background: linear-gradient(to right, #05336f 0%, #1a84db 100%);
 
     &__title {
         color: $white;
@@ -10,6 +9,10 @@
 
 .about-geo {
     padding: 75px 0;
+    background-image: url(../img/about-geo--mobile.png);
+    background-repeat: no-repeat;
+    background-position: 71% 52%;
+    background-size: 40%;
 
     &__title {
         color: $white;
@@ -33,5 +36,13 @@
 
     &__item-text {
 
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .about-geo {
+        background-image: url(../img/about-geo--desktop.png);
+        background-size: cover;
+        background-position: center;
     }
 }

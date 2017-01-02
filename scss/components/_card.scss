@@ -13,4 +13,9 @@
     &--no-margin {
         margin: 0;
     }
+
+    &--max-width {
+        max-width: 1275px;
+        margin: 0 auto;
+    }
 }
